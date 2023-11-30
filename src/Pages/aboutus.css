@@ -1,0 +1,62 @@
+.about-container{
+    height: 64.8vh;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    overflow: auto;
+    text-align: justify;
+    margin-top: 20px;
+}
+.heading{
+    line-height: 27px;
+    font-weight: 700;
+    font-family: 'Graduate', serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: aqua;   
+}
+.about-container i {
+    font-size: 17px;
+   
+}
+.about-container p{
+    font-size: 17px;
+    
+}
+
+
+@media screen and (max-width :  540px){
+    .about-container{
+        height: 100vh;
+       
+        
+    }
+}
+@media screen and (min-width : 541px) and (max-width : 768px){
+    .about-container{
+        height: 65.8vh;
+      
+    }
+}
+
+@media screen and (min-width : 769px) and (max-width : 820px){
+    .about-container{
+        height: 57.2vh;
+      
+    }
+}
+@media screen and (min-width : 821px) and (max-width : 912px){
+    .about-container{
+        height: 49.3vh;
+      
+    }
+}
+
+@media screen and (min-width : 913px) and (max-width : 1024px){
+    .about-container{
+        height: 62.5vh;
+      
+    }
+} 
+
+
+

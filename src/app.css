@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Graduate&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+ 
+}
+
+.main-contaner {
+    width: 100%;
+    padding: 4%;
+    overflow: hidden;
+    position: sticky;
+}
+
+@media screen and (max-width : 480px) {
+    .main-contaner {
+        padding: 5%;
+    }
+}

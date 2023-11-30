@@ -1,0 +1,54 @@
+.trem-container{
+    height: 64.8vh;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    overflow: auto; 
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.trem-container .heading {
+    line-height: 27px;
+    font-weight: 700;
+    font-family: 'Graduate', serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: aqua;
+}
+
+
+@media screen and (max-width :  540px){
+    .trem-container{
+        height: 100vh;
+       
+        
+    }
+}
+@media screen and (min-width : 541px) and (max-width : 768px){
+    .trem-container{
+        height: 65.8vh;
+      
+    }
+}
+
+
+@media screen and (min-width : 769px) and (max-width : 820px){
+    .trem-container{
+        height: 57.2vh;
+      
+    }
+}
+@media screen and (min-width : 821px) and (max-width : 912px){
+    .trem-container{
+        height: 49.3vh;
+      
+    }
+}
+ 
+@media screen and (min-width : 913px) and (max-width : 1024px){
+    .trem-container{
+        height: 62.5vh;
+      
+    }
+} 
+

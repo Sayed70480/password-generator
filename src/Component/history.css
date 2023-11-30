@@ -1,0 +1,99 @@
+/* history heading */
+.histroy-heading{
+    font-size: 18px;
+    color: #fafafa;
+    font-family: 'Graduate', serif;
+    border-top: 2px solid #f8ef00;
+    border-bottom: 2px solid #f8ef00;
+}
+/* history body */
+.histroy-body{
+    overflow: auto;
+    height: 250px;
+    color: "whitesmoke";
+    
+}
+.histroy-body::-webkit-scrollbar{
+    display: none;    
+}
+
+/* show history  copy password */
+.history-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width : 100%; 
+}
+
+.copy-password{
+    color: grey; 
+    overflow: auto; 
+    width: 85%;
+    cursor: pointer;  
+}
+.copy-password h6{
+    font-size: 14px;
+}
+.copy-password h6:hover{
+    color: #ff003c;
+}
+
+.copy-password::-webkit-scrollbar{
+    display: none;
+    
+}
+/* copy copy-password btn */
+.copy-icon{
+    color: #fafafa;
+    cursor: pointer;
+}
+.copy-icon:hover{
+    color: #f8ef00 ;
+}
+/* history-clear-btn */
+.history-clear-btn{
+    
+    height: 29px;
+    border-top: 2px solid #f8ef00;
+    border-bottom: 2px solid #f8ef00;
+}
+.history-clear-btn h6{
+    font-family: 'Graduate', serif;
+    text-align: start;
+    margin-top: 10px;
+    color: #fafafa;
+    font-size: 18px;
+    cursor: pointer;display: inline;
+
+}
+
+
+@media screen and (max-width : 912px){
+    .history-section{
+   margin-top: 50px;
+    }
+    .history-data{
+        width: 100%;
+    }
+    .history-clear-btn h6{
+        margin-top: 30px;
+    }
+}
+
+.pop{
+    background-color: black;
+    border: 1px solid #f8ef00 ;
+    border-radius: 0px;
+    color: #fafafa;
+   
+    font-family: 'Graduate', serif;
+    padding: 15px;
+}
+.pop input{
+    color: black;
+}
+
+.pop .swal2-title{
+    color: #f8ef00 ;
+    font-size: 14px;
+}

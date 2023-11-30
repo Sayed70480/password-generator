@@ -1,0 +1,15 @@
+.heading{
+  width: 100%;
+}
+.heading h2{
+    line-height: 27px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: yellow;
+    font-family: 'Graduate', serif;
+    
+}
+
+.heading .link {
+  text-decoration: none;
+}

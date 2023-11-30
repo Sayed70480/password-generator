@@ -1,0 +1,79 @@
+.footer{
+        display: flex;
+        align-items: center;
+        font-family: 'Graduate', serif;
+        word-spacing: 2px;  
+       
+            
+}
+.footer h5{
+    color: aqua;
+    font-size: 15px;   
+}
+
+.pages{
+    margin-bottom: 8px;
+  
+}
+
+.pages .link {
+    margin-left: 12px;
+    color: #bbbbbb;
+    text-decoration: none;
+    font-size: 12px;   
+}
+.pages .link:hover{
+    color:white ;
+}
+
+.line{
+    margin-left: 20px;
+    color: #bbbbbb;
+    margin-top: 3px;  
+}
+@media screen and (max-width : 730px){
+    .line{
+        display: none;
+    }
+    .footer{
+        display: block;
+        text-align: start;
+        margin-top: 20px;
+    } 
+    .pages .link {
+        margin-left: 12px;
+        color: #bbbbbb;
+        text-decoration: none;
+        font-size: 10px;   
+    }
+}
+
+@media screen and (max-width : 360px){
+    .footer h5{
+        color: aqua;
+        font-size: 14px;   
+    }
+}
+@media screen and (min-width : 540px) and (max-width : 912px){
+    .footer{
+        margin-top: 50px;
+    } 
+} 
+@media screen and (min-width : 540px) and (max-width : 768px){
+    .footer h5{
+        color: aqua;
+        font-size: 12px;   
+    }
+} 
+@media screen and (min-width : 820px) and (max-width : 912px){
+    
+    .line
+    {
+       margin-top: 0px;  
+    }
+    .pages 
+    {
+        margin-top: -3px;
+        /* border: 1px solid red; */
+    }
+} 

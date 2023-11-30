@@ -1,0 +1,77 @@
+.conatact-main{
+    height: 64.8vh;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    overflow: auto;
+    text-align: justify;   
+    margin-top: 20px;
+}
+.conatact-main .heading{
+    line-height: 27px;
+    font-weight: 700;
+    font-family: 'Graduate', serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: aqua;
+}
+.conatact-main .icon{
+    font-size: 20px;
+    margin-top: 10px;
+    color: yellow;
+   
+    width: 5%;
+ 
+}
+
+.conatact-main .content {
+    display: flex;
+   
+    
+   
+    
+}
+
+.conatact-main .content h6 {
+    margin-top: 9px;
+    margin-left: 10px;
+    font-size: 18px;
+  
+    width: 90%;
+}
+
+@media screen and (max-width :  540px){
+    .conatact-main{
+        height: 77vh;
+       
+        
+    }
+}
+@media screen and (min-width : 541px) and (max-width : 768px){
+    .conatact-main{
+        height: 65.8vh;
+      
+    }
+}
+
+
+@media screen and (min-width : 769px) and (max-width : 820px){
+    .conatact-main{
+        height: 57.2vh;
+      
+    }
+}
+@media screen and (min-width : 821px) and (max-width : 912px){
+    .conatact-main{
+        height: 49.3vh;
+      
+    }
+}
+
+
+@media screen and (min-width : 913px) and (max-width : 1024px){
+    .conatact-main{
+        height: 62.5vh;
+      
+    }
+} 
+
